@@ -1,0 +1,32 @@
+// 顏色
+$green1 : #94dfcf;
+$purple : #6422a3;
+$purple1 : #b48ccc;
+$blue1 : #d3f1f9;
+$white1 : #f2f2f2;
+$pink : #ffbee9;
+$yellow : #ffe73c;
+$deepGrey : #252525;
+$grey : #555555;
+
+// RWD
+@mixin pad-lg{
+    @media(max-width: 1024px){
+      @content;
+    }
+}
+@mixin pad{
+    @media(max-width:768px){
+      @content;
+    }
+}
+@mixin mobile-md {
+  @media(max-width: 576px){
+      @content;
+    }
+}
+@mixin mobile-s {
+    @media(max-width: 420px){
+        @content;
+      }
+  }

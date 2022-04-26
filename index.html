@@ -4,13 +4,199 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> <!-- slick style-->
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+    <title>熊厲害</title>
 </head>
 <body>
-    <header></header>
-    <main>
-        
+    <header class="main-header">
+        <div class="header-wrap">
+            <div class="logo-area">熊厲害</div>
+            <nav>
+                <ul class="nav-list">
+                    <li class="close-btn"></li>
+                    <li class="list-item p-md">
+                        <a href="">最新消息</a>    
+                    </li>
+                    <li class="list-item p-md">
+                        <a href="">團隊成員</a>
+                    </li>
+                    <li class="list-item p-md">
+                        <a href="">大事記</a>
+                    </li>
+                    <li class="list-item p-md">
+                        <a href="">
+                            <img src="./img/facebook.png" alt="" class="icon">
+                        </a>
+                    </li>
+                    <li class="list-item p-md">
+                        <a href="">
+                            <img src="./img/line.png" alt="" class="icon">
+                        </a>
+                    </li>
+                </ul>
+                <div class="hamburger-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="main-content">
+        <section class="key-visual banner">
+            <div class="banner-text">
+                <p class="p-lg">
+                熊厲害是一個提供健康、醫療等資訊的線上平台，<br>
+                我們提供醫師、護理師、營養師、運動教練等專家對於生活的建議及精確的健康資訊，<br>
+                希望帶給大家健康且正確的的生活觀念
+                </p>
+            </div>
+        </section>
+        <section class="news">
+            <h1 class="section-title">最新消息</h1>
+            <ul class="news-list">
+                <li class="list-item">
+                <div class="label-wrap">
+                    <span class="date">2019.01.10</span>
+                    <span class="type">
+                        <span class="icon">
+                            <img src="./img/incon-news.svg" alt="">
+                        </span>
+                        <span class="type-name">媒體報導</span>
+                    </span>
+                </div>
+                    <span class="paragraph">LINE TODAY - 健康圖解懶人包「熊厲害」！帶你健康生活ㄧ整年</span>
+                </li>
+                <li class="list-item">
+                    <div class="label-wrap">
+                    <span class="date">2019.01.10</span>
+                    <span class="type">
+                        <span class="icon">
+                            <img src="./img/icon-reward.svg" alt="">
+                        </span>
+                        <span class="type-name">獲獎</span>
+                    </span>
+                    </div>
+                    <span class="paragraph">熊厲害獲得 第19屆經濟部「新創事業獎」</span>
+                </li>
+                <li class="list-item">
+                    <div class="label-wrap">
+                    <span class="date">2019.01.10</span>
+                    <span class="type">
+                        <span class="icon">
+                            <img src="./img/icon-milestone.svg" alt="">
+                        </span>
+                        <span class="type-name">大事記</span>
+                    </span>
+                    </div>
+                    <span class="paragraph">口袋熊登上康健專欄</span>
+                </li>
+                <li class="list-item">
+                    <div class="label-wrap">
+                    <span class="date">2019.01.10</span>
+                    <span class="type">
+                        <span class="icon">
+                            <img src="./img/incon-news.svg" alt="">
+                        </span>
+                        <span class="type-name">媒體報導</span>
+                    </span>
+                    </div>
+                    <span class="paragraph">Ettoday - 上醫院看病不再迷惘！康健 KB 知識庫 找對醫院看對科</span>
+                </li>
+            </ul>
+        </section>
+        <section class="team-member">
+            <h1 class="section-title">團隊成員</h1>
+            <ul class="member-list">
+                <li class="list-item">
+                    <div class="img-frame">
+                        <img src="./img/profile01.svg" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h3 class="title">熊蓋讚</h3>
+                        <span class="name">營養師</span>
+                    </div>
+                </li>
+                <li class="list-item">
+                    <div class="img-frame">
+                        <img src="./img/profile02.svg" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h3 class="title">口袋熊</h3>
+                        <span class="name">駐站醫師</span>
+                    </div>
+                </li>
+                <li class="list-item">
+                    <div class="img-frame">
+                        <img src="./img/profile03.svg" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h3 class="title">熊健康</h3>
+                        <span class="name">創辦人</span>
+                    </div>
+                </li>
+                <li class="list-item">
+                    <div class="img-frame">
+                        <img src="./img/profile04.svg" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h3 class="title">熊愛水</h3>
+                        <span class="name">瑜伽老師</span>
+                    </div>
+                </li>
+                <li class="list-item">
+                    <div class="img-frame">
+                        <img src="./img/profile05.svg" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h3 class="title">熊舒適</h3>
+                        <span class="name">體適能教練</span>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="milestone">
+            <h1 class="section-title">大事記</h1>
+            <ul class="time-line">
+                <li class="milestone">
+                    <div class="content">
+                        <h3>2016年</h3>
+                        <h3>組織成立</h3>
+                        <p>熊健康與研究所時結識的好友口袋熊，創立本組織「熊厲害」</p>   
+                    </div>
+                </li>
+                <li class="milestone">
+                    <div class="content">
+                        <h3>2018年</h3>
+                        <h3>康健樂活節形象代言</h3>
+                        <p>組織全員受邀擔任康健「樂活節」形象代言</p>   
+                    </div>
+                </li>
+                <li class="milestone">
+                    <div class="content">
+                        <h3>2019年</h3>
+                        <h3>口袋熊在症狀檢測服務</h3>
+                        <p>口袋熊開始於「 KB 知識庫 症狀檢測」為民眾免費服務</p>   
+                    </div>
+                </li>
+                <li class="milestone">
+                    <div class="content">
+                        <h3>2020年</h3>
+                        <h3>口袋熊登上康健專欄</h3>
+                        <p>「口袋熊醫師」系列文章，以圖解的形式正式在康健專欄上架</p>   
+                    </div>
+                </li>
+            </ul>
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="footer-wrap">
+            Copyright @ 2021 熊厲害. All rights reserved.版權所有，禁止擅自轉貼節錄
+        </div>
+    </footer>
 </body>
 </html>
