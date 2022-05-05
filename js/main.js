@@ -47,4 +47,16 @@ $(document).ready(function(){
       }
     })
     .trigger("resize");
+    // 錨點
+    $("a").on("click", function () {
+        let hrefLink = $(this).attr("href");
+        if ($(window).width() < 768) { $('.nav-list').hide();};
+        $("html,body").animate(
+          {
+            scrollTop: $(hrefLink).offset().top - 60 //直接到相對位置（扣除header)
+          },
+          800
+        );
+      });
+    // });
 });
